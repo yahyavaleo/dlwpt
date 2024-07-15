@@ -3,6 +3,12 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# Model weights
+*.pth
+
+# Pickel files
+*.pkl
+
 # C extensions
 *.so
 
