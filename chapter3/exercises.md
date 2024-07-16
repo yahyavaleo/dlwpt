@@ -73,7 +73,7 @@ a = a.float()
 
 ### 2.c. Is there a version of your function that operates in place?
 
-Yes, there is a corresponding tensor method with a leading underscore.
+Yes, there is a corresponding tensor method with a trailing underscore.
 
 ```py
 a.sqrt_()
