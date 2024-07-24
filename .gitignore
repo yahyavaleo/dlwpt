@@ -9,6 +9,12 @@ __pycache__/
 # Pickel files
 *.pkl
 
+# Compressed files
+*.gz
+
+# Project-specific
+cifar-10-batches-py/
+
 # C extensions
 *.so
 
