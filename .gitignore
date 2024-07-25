@@ -4,6 +4,7 @@ __pycache__/
 *$py.class
 
 # Model weights
+*.pt
 *.pth
 
 # Pickel files
