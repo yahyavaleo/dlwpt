@@ -125,7 +125,7 @@ The values for these parameters can either be an integer and tuple (of two integ
 
 If the kernel has a $1 \times 3$ shape, the convolution will result in a non-square output feature map. This is because, the kernel can only encompass a single row, so the height of the input and output feature maps will be the same, but the width will be reduced. Let us consider a simple $4 \times 4$ image:
 
-$$
+```math
 \begin{bmatrix}
 i_{00} & i_{01} & i_{02} & i_{03} \\
 i_{10} & i_{11} & i_{12} & i_{13} \\
@@ -143,7 +143,7 @@ x_{10} & x_{11} \\
 x_{20} & x_{21} \\
 x_{30} & x_{31} \\
 \end{bmatrix}
-$$
+```
 
 We can test this with a sample image using the following code:
 
